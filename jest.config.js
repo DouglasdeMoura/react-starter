@@ -1,7 +1,6 @@
 module.exports = {
-  preset: 'ts-jest',
-  setupFilesAfterEnv: ['<rootDir>/.jest/setup.js'],
-  moduleDirectories: ['node_modules', '<rootDir>/'],
+  moduleDirectories: ['node_modules', '<rootDir>'],
+  setupFilesAfterEnv: ['@testing-library/jest-dom', '<rootDir>/.jest/setup.js'],
   testEnvironment: 'jest-environment-jsdom',
   moduleNameMapper: {
     '\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg)$':
@@ -9,8 +8,11 @@ module.exports = {
     '^components/(.*)$': '<rootDir>/src/components/$1',
     '\\.css$': 'identity-obj-proxy',
   },
+  watchPlugins: [
+    'jest-watch-typeahead/filename',
+    'jest-watch-typeahead/testname',
+  ],
   transform: {
-    '^.+\\.(ts|tsx)?$': 'ts-jest',
-    '^.+\\.(js|jsx)$': 'babel-jest',
+    '^.+\\.(t|j)sx?$': '@swc/jest',
   },
 }
