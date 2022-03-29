@@ -9,25 +9,23 @@
       "version": "detect"
     }
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
-    "plugin:jest-dom/recommended",
-    "plugin:jsx-a11y/recommended",
-    "plugin:jest/recommended",
-    "plugin:jest/style",
-    "plugin:storybook/recommended"
-  ],
   "plugins": [
     "react",
     "react-hooks",
     "@typescript-eslint",
     "eslint-plugin-import-helpers",
     "eslint-plugin-jest",
-    "eslint-plugin-storybook"
+    "eslint-plugin-storybook",
+    "testing-library"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:storybook/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "rules": {
@@ -56,5 +54,19 @@
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-var-requires": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "extends": [
+        "plugin:jest-dom/recommended",
+        "plugin:jest/recommended",
+        "plugin:jest/style",
+        "plugin:testing-library/react"
+      ]
+    }
+  ]
 }
