@@ -26,8 +26,8 @@ module.exports = function (plop) {
       },
       {
         type: 'add',
-        path: '../src/atoms/{{kebabCase name}}/{{kebabCase name}}.test.tsx',
-        templateFile: 'templates/test.tsx.hbs',
+        path: '../src/atoms/{{kebabCase name}}/{{kebabCase name}}.spec.tsx',
+        templateFile: 'templates/spec.tsx.hbs',
       },
     ],
   })
@@ -59,8 +59,8 @@ module.exports = function (plop) {
       },
       {
         type: 'add',
-        path: '../src/components/{{kebabCase name}}/{{kebabCase name}}.test.tsx',
-        templateFile: 'templates/test.tsx.hbs',
+        path: '../src/components/{{kebabCase name}}/{{kebabCase name}}.spec.tsx',
+        templateFile: 'templates/spec.tsx.hbs',
       },
     ],
   })
