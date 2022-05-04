@@ -28,6 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
+    "@storybook/addon-a11y": "^6.4.22",
     "@storybook/addon-actions": "^6.4.22",
     "@storybook/addon-essentials": "^6.4.22",
     "@storybook/addon-links": "^6.4.22",
@@ -58,6 +59,7 @@
     "husky": ">=7",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.0.3",
+    "jest-axe": "^6.0.0",
     "jest-watch-typeahead": "^1.1.0",
     "lint-staged": ">=12",
     "plop": "^3.1.0",
