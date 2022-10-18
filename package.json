@@ -48,7 +48,7 @@
     "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
-    "@typescript-eslint/utils": "^5.30.5",
+    "@typescript-eslint/utils": "^5.40.1",
     "babel-loader": "^8.2.5",
     "eslint": "^8.25.0",
     "eslint-config-prettier": "^8.5.0",
