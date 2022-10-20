@@ -1,5 +1,3 @@
-import { FC } from 'react'
-
-export const App: FC = () => {
+export const App: React.FC = () => {
   return <h1>Hello, World!</h1>
 }
