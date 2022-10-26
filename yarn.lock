@@ -1647,16 +1647,6 @@
   dependencies:
     "@jest/types" "^27.5.1"
 
-"@jest/environment@^29.2.1", "@jest/environment@^29.2.2":
-  version "29.2.2"
-  resolved "https://registry.yarnpkg.com/@jest/environment/-/environment-29.2.2.tgz#481e729048d42e87d04842c38aa4d09c507f53b0"
-  integrity sha512-OWn+Vhu0I1yxuGBJEFFekMYc8aGBGrY4rt47SOh/IFaI+D7ZHCk7pKRiSoZ2/Ml7b0Ony3ydmEHRx/tEOC7H1A==
-  dependencies:
-    "@jest/fake-timers" "^29.2.2"
-    "@jest/types" "^29.2.1"
-    "@types/node" "*"
-    jest-mock "^29.2.2"
-
 "@jest/environment@^29.2.2":
   version "29.2.2"
   resolved "https://registry.yarnpkg.com/@jest/environment/-/environment-29.2.2.tgz#481e729048d42e87d04842c38aa4d09c507f53b0"
@@ -1688,18 +1678,6 @@
   dependencies:
     expect "^29.2.2"
     jest-snapshot "^29.2.2"
-
-"@jest/fake-timers@^29.2.1", "@jest/fake-timers@^29.2.2":
-  version "29.2.2"
-  resolved "https://registry.yarnpkg.com/@jest/fake-timers/-/fake-timers-29.2.2.tgz#d8332e6e3cfa99cde4bc87d04a17d6b699deb340"
-  integrity sha512-nqaW3y2aSyZDl7zQ7t1XogsxeavNpH6kkdq+EpXncIDvAkjvFD7hmhcIs1nWloengEWUoWqkqSA6MSbf9w6DgA==
-  dependencies:
-    "@jest/types" "^29.2.1"
-    "@sinonjs/fake-timers" "^9.1.2"
-    "@types/node" "*"
-    jest-message-util "^29.2.1"
-    jest-mock "^29.2.2"
-    jest-util "^29.2.1"
 
 "@jest/fake-timers@^29.2.2":
   version "29.2.2"
@@ -3957,7 +3935,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/utils@5.40.1", "@typescript-eslint/utils@^5.10.0", "@typescript-eslint/utils@^5.13.0", "@typescript-eslint/utils@^5.40.1":
+"@typescript-eslint/utils@5.40.1":
   version "5.40.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.40.1.tgz#3204fb73a559d3b7bab7dc9d3c44487c2734a9ca"
   integrity sha512-a2TAVScoX9fjryNrW6BZRnreDUszxqm9eQ9Esv8n5nXApMW0zeANUYlwh/DED04SC/ifuBvXgZpIK5xeJHQ3aw==
@@ -3967,6 +3945,20 @@
     "@typescript-eslint/scope-manager" "5.40.1"
     "@typescript-eslint/types" "5.40.1"
     "@typescript-eslint/typescript-estree" "5.40.1"
+    eslint-scope "^5.1.1"
+    eslint-utils "^3.0.0"
+    semver "^7.3.7"
+
+"@typescript-eslint/utils@^5.10.0", "@typescript-eslint/utils@^5.13.0", "@typescript-eslint/utils@^5.41.0":
+  version "5.41.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.41.0.tgz#f41ae5883994a249d00b2ce69f4188f3a23fa0f9"
+  integrity sha512-QlvfwaN9jaMga9EBazQ+5DDx/4sAdqDkcs05AsQHMaopluVCUyu1bTRUVKzXbgjDlrRAQrYVoi/sXJ9fmG+KLQ==
+  dependencies:
+    "@types/json-schema" "^7.0.9"
+    "@types/semver" "^7.3.12"
+    "@typescript-eslint/scope-manager" "5.41.0"
+    "@typescript-eslint/types" "5.41.0"
+    "@typescript-eslint/typescript-estree" "5.41.0"
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
     semver "^7.3.7"
@@ -9501,15 +9493,6 @@ jest-mock@^27.0.6:
   dependencies:
     "@jest/types" "^27.5.1"
     "@types/node" "*"
-
-jest-mock@^29.2.1, jest-mock@^29.2.2:
-  version "29.2.2"
-  resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-29.2.2.tgz#9045618b3f9d27074bbcf2d55bdca6a5e2e8bca7"
-  integrity sha512-1leySQxNAnivvbcx0sCB37itu8f4OX2S/+gxLAV4Z62shT4r4dTG9tACDywUAEZoLSr36aYUTsVp3WKwWt4PMQ==
-  dependencies:
-    "@jest/types" "^29.2.1"
-    "@types/node" "*"
-    jest-util "^29.2.1"
 
 jest-mock@^29.2.2:
   version "29.2.2"
