@@ -4115,24 +4115,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-
-"@typescript-eslint/utils@5.59.7", "@typescript-eslint/utils@^5.10.0", "@typescript-eslint/utils@^5.45.0", "@typescript-eslint/utils@^5.58.0", "@typescript-eslint/utils@^5.59.6":
-  version "5.59.7"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.59.7.tgz#7adf068b136deae54abd9a66ba5a8780d2d0f898"
-  integrity sha512-yCX9WpdQKaLufz5luG4aJbOpdXf/fjwGMcLFXZVPUz3QqLirG5QcwwnIHNf8cjLjxK4qtzTO8udUtMQSAToQnQ==
-
-  dependencies:
-    "@eslint-community/eslint-utils" "^4.2.0"
-    "@types/json-schema" "^7.0.9"
-    "@types/semver" "^7.3.12"
-    "@typescript-eslint/scope-manager" "5.59.7"
-    "@typescript-eslint/types" "5.59.7"
-    "@typescript-eslint/typescript-estree" "5.59.7"
-    eslint-scope "^5.1.1"
-    semver "^7.3.7"
-
-
-"@typescript-eslint/utils@^5.10.0", "@typescript-eslint/utils@^5.45.0", "@typescript-eslint/utils@^5.58.0", "@typescript-eslint/utils@^5.59.7":
+"@typescript-eslint/utils@5.59.7", "@typescript-eslint/utils@^5.10.0", "@typescript-eslint/utils@^5.45.0", "@typescript-eslint/utils@^5.58.0", "@typescript-eslint/utils@^5.59.7":
   version "5.59.7"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.59.7.tgz#7adf068b136deae54abd9a66ba5a8780d2d0f898"
   integrity sha512-yCX9WpdQKaLufz5luG4aJbOpdXf/fjwGMcLFXZVPUz3QqLirG5QcwwnIHNf8cjLjxK4qtzTO8udUtMQSAToQnQ==
@@ -4145,14 +4128,6 @@
     "@typescript-eslint/typescript-estree" "5.59.7"
     eslint-scope "^5.1.1"
     semver "^7.3.7"
-
-"@typescript-eslint/visitor-keys@5.59.6":
-  version "5.59.6"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-5.59.6.tgz#673fccabf28943847d0c8e9e8d008e3ada7be6bb"
-  integrity sha512-zEfbFLzB9ETcEJ4HZEEsCR9HHeNku5/Qw1jSS5McYJv5BR+ftYXwFFAH5Al+xkGaZEqowMwl7uoJjQb1YSPF8Q==
-  dependencies:
-    "@typescript-eslint/types" "5.59.6"
-    eslint-visitor-keys "^3.3.0"
 
 "@typescript-eslint/visitor-keys@5.59.7":
   version "5.59.7"
@@ -13984,10 +13959,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-"typescript@^4.6.4 || ^5.0.0", typescript@^5.0.4:
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.0.4.tgz#b217fd20119bd61a94d4011274e0ab369058da3b"
-  integrity sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==
+"typescript@^4.6.4 || ^5.0.0", typescript@^5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
+  integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
 
 uglify-js@^3.1.4:
   version "3.14.5"
