@@ -31,7 +31,7 @@
     "@commitlint/config-conventional": "^17.6.3",
     "@storybook/addon-a11y": "^6.5.16",
     "@storybook/addon-actions": "^7.0.17",
-    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-essentials": "^7.4.5",
     "@storybook/addon-interactions": "^6.5.16",
     "@storybook/addon-links": "^7.0.12",
     "@storybook/builder-vite": "^0.4.2",
