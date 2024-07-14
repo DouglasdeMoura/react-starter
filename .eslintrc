@@ -35,10 +35,14 @@
         "newlinesBetween": "always", // new line between groups
         "groups": [
           "/^react/",
-          "/^@testing-library/",
+          "/^@testing-library|^vitest/",
           "/^@storybook/",
           "/styles.*/",
-          ["parent", "sibling", "index"],
+          [
+            "parent",
+            "sibling",
+            "index"
+          ],
           "/\\.\\/styles/"
         ],
         "alphabetize": {
