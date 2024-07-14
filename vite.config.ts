@@ -8,5 +8,10 @@ export default defineConfig({
   test: {
     setupFiles: ['./.vitest/setup.ts'],
     environment: 'happy-dom',
+    browser: {
+      provider: 'playwright', // or 'webdriverio'
+      enabled: true,
+      name: 'chromium', // browser name is required
+    },
   },
 })

@@ -35,7 +35,7 @@
         "newlinesBetween": "always", // new line between groups
         "groups": [
           "/^react/",
-          "/^@testing-library|^vitest/",
+          "/^@testing-library|^@vitest|^vitest/",
           "/^@storybook/",
           "/styles.*/",
           [
