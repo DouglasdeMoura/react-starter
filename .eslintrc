@@ -1,8 +1,7 @@
 {
   "env": {
     "browser": true,
-    "node": true,
-    "jest/globals": true
+    "node": true
   },
   "settings": {
     "react": {
@@ -14,7 +13,6 @@
     "react-hooks",
     "@typescript-eslint",
     "eslint-plugin-import-helpers",
-    "eslint-plugin-jest",
     "eslint-plugin-storybook",
     "testing-library"
   ],
@@ -66,9 +64,6 @@
         "**/?(*.)+(spec|test).[jt]s?(x)"
       ],
       "extends": [
-        "plugin:jest-dom/recommended",
-        "plugin:jest/recommended",
-        "plugin:jest/style",
         "plugin:testing-library/react"
       ]
     }
