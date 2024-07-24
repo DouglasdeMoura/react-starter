@@ -33,7 +33,7 @@
     "@storybook/addon-a11y": "^8.2.2",
     "@storybook/addon-essentials": "^8.2.2",
     "@storybook/addon-interactions": "^8.2.2",
-    "@storybook/addon-links": "^8.2.5",
+    "@storybook/addon-links": "^8.2.6",
     "@storybook/addon-onboarding": "^8.2.2",
     "@storybook/blocks": "^8.2.2",
     "@storybook/react": "^8.2.5",
